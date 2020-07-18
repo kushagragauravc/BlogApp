@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Here"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_marginTop="35dp"
+        android:textSize="30dp"
+        android:id="@+id/tv1_login">
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:layout_marginTop="30dp"
+        android:id="@+id/username_login">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:layout_marginTop="18dp"
+        android:id="@+id/password_login">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_login">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up "></Button>
+
+<!--    <ProgressBar-->
+<!--        android:layout_width="99dp"-->
+<!--        android:layout_height="94dp"-->
+<!--        android:layout_marginLeft="150dp">-->
+
+<!--    </ProgressBar>-->
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
